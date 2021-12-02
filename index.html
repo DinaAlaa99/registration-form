@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/main.css">
+  <title>Form</title>
+</head>
+<div class="container">
+
+  <body>
+    <h1 class="Register">Register - Create Account </h1>
+    <p class="Note">Field marked with <span class="ast">*</span> are compulsory field</p>
+
+    <form>
+
+
+
+      <div class="group">
+        <label for="name"><span class="ast">*</span>Your Name</label>
+
+
+        <input class="input" type="text" id="name" name="name" required>
+      </div>
+
+
+
+
+      <div class="group">
+        <label for="eID"> <span class="ast">*</span>E-mail ID</label>
+
+        <input class="input" type="text" id="eID" name="eID" required>
+      </div>
+
+
+
+
+      <div class="group"><label for="aeID">Alternate E-mail ID</label>
+        <input class="input" type="text" id="aeID" name="aeID">
+      </div>
+
+
+
+      <div class="group">
+        <label class="phonelabel">Your Phone </label>
+
+        <div class="phone">
+          <div>
+            <label>Country Code</label><br><input  type="text" id="Country Code" name="Country Code">
+              <span class="split"> - </span>
+          </div>
+        
+          <div><label>City Code</label><br> <input  type="text" id="City Code" name="City Code">
+            <span class="split"> - </span></div>
+        
+          <div>
+            <label>Phone Number</label> <br><input class="phoneinput" type="text" id="Phone Number" name="Phone Number">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="group"><label for="Mobile Phone"><span class="ast">*</span>Mobile Phone</label>
+        <input class="input" type="text" id="Mobile Phone" name="Mobile Phone" required><br>
+      </div>
+
+
+      <div class="group"><label for="Postal Code"><span class="ast">*</span>Your Postal Code</label>
+        <input class="Textinput" type="text" id="message" name="message">
+      </div>
+
+
+
+
+
+
+      <div class="group"><label for="Country"><span class="ast">*</span>Country</label>
+        <select class="input" name="Country" id="Country" required>
+          <option selected disabled>------------------------------------------------Selcet
+            One------------------------------------------------
+          </option>
+          <option value="Egypt">Egypt</option>
+          <option value="USA">USA</option>
+          <option value="UK">Uk</option>
+        </select>
+      </div>
+
+
+
+
+      <div class="group"><label for="pwd"><span class="ast">*</span>Password</label>
+        <input class="input" type="password" id="pwd" name="pwd">
+      </div>
+
+
+
+
+      <div class="group"><label for="re-pwd"><span class="ast">*</span>Re-Enter Password</label>
+        <input class="input" type="password" id="re-pwd" name="re-pwd" required>
+      </div>
+
+
+      <div class="term">
+        <input type="checkbox" id="terms" name="terms" value="terms">
+        <label for="terms">I accept the <a href="https://www.w3schools.com/" target="_blank">Terms of
+            use</a></label>
+      </div>
+
+      <div class="buttons">
+        <button class="Continue" type="button">Continue >></button>
+        <button class="Reset" type="button">Reset</button>
+      </div>
+</div>
+
+</form>
+
+</body>
+</div>
+
+</html>
